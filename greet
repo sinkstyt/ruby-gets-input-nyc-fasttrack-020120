@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby  #We are using this as the executable file. It calls other files such as "greet"
+require_relative "../lib/greeting.rb"
+
+#code your CLI here
+
+
+def say_hello(their_name)
+    puts "Hi #{their_name}, I'm Tyler's computer."
+end
